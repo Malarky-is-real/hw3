@@ -1,4 +1,7 @@
-
+/*
+    Name: Anthony Estrella 
+    Repo Url: https://github.com/Malarky-is-real/hw3
+*/
 
 body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, 	helvetica, sans-serif;
@@ -84,14 +87,25 @@ a:hover{
 
 
 
-
+input:hover{
+    outline-color:khaki;
+    color: darkgoldenrod;
+    text-decoration: dashed;
+}
 input:focus{
     outline-color:khaki;
     color: darkgoldenrod;
     text-decoration: dashed;
 }
 
+
 button:hover{
+    color:khaki;
+    text-decoration: underline;
+}
+
+
+button:focus{
     background-color:khaki;
     color: blue;
     text-decoration: underline;
